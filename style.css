@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+body{
+    background: hsla(197, 100%, 63%, 1);
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+    height: 100%;  
+    margin-top: 80px;  
+    padding: 30px;  
+    background-size: cover;  
+    font-family: sans-serif;  
+}  
+.info{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 24px;
+    color:rgb(255, 252, 57);
+    width: 60%;
+    display: flex;
+    float: left;
+    position: relative;
+    left:4%;
+}
+.profileImage{
+    border-radius: 60%;
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+}
+.profileContainer{
+    /* background: red; */
+    float: left;
+    position: relative;
+    width: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+a{
+    height:20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px white solid;
+    border-radius: 20px;
+    background-color: #11ac11;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color:#000000;
+    margin:30px;
+    padding:30px;
+}
+a:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px 2px rgba(0, 0,0,8);
+}
+
+
+
+
+
+/*.forky{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.face{ 
+    width: 300px;
+    height: 300px;
+    background:yellow;
+    position: absolute;
+    border-radius: 20% 80% 80% 20%;
+    transform: rotate(-90deg);
+    top: 135px;
+    left: 147px;
+}
+.eye1{
+    width:60px;
+    height: 60px;
+    background-color: white;
+    border-color: black;
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    transform: rotate(-50deg);
+    top:225px;
+    left: 215px;
+}
+.glass1{
+    width:90px;
+    height: 90px;
+    background-color: rgb(175, 175, 175);
+    border-color: black;
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    transform: rotate(-50deg);
+    top:210px;
+    left: 200px;
+}
+.pupil1{
+    width:24px;
+    height: 24px;
+    background-color: black;
+    border-color: black;
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    transform: rotate(-50deg);
+    top:245px;
+    left: 235px;
+}
+.eye2{
+    width:60px;
+    height: 60px;
+    background-color: white;
+    border-color: black;
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    transform: rotate(-50deg);
+    top:225px;
+    left: 310px;
+}
+.glass2{
+    width:90px;
+    height: 90px;
+    background-color: rgb(175, 175, 175);
+    border-color: black;
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    transform: rotate(-50deg);
+    top:210px;
+    left: 295px;
+}
+.pupil2{
+    width:24px;
+    height: 24px;
+    background-color: black;
+    border-color: black;
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    transform: rotate(-50deg);
+    top:245px;
+    left:325px;
+}
+.strap1{
+    width: 58px;
+    height: 25px;
+    background:black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 50px 0px 0px 50px;
+    top:260px;
+    left:175px;
+}
+.strap2{
+    width: 58px;
+    height: 25px;
+    background:black;
+    position: absolute;
+    transform:rotate(-180deg);
+    border-radius: 50px 0px 0px 50px;
+    top:245px;
+    left:388px;
+}*/
